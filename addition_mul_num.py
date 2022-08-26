@@ -1,12 +1,22 @@
 def mul_int(n):
     p=0
     s=0
-    for i in range(1,n):
+    ls=[]
+    for i in range(1,n+1):
         d=n**i
         s=s+d
-    print("final scire",s)
+        ls.append(n)
+        p=p+1
+    print(ls)
+    print("final score",s)
 
 
-mul_int(5)
-    
+mul_int(3)
+
+
+
+
+
+
+
 
