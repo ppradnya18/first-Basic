@@ -1,2 +1,1 @@
-"""8. Write a Python program to check whether a JSON string contains complex object or not. Go to the editor
-"""
+"""8. Write a Python program to check whether a JSON string contains complex object or not."""
