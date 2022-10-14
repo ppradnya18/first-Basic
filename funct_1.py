@@ -1,3 +1,4 @@
+cd = 65744
 """Create a function to calculate the cube of a number that is passed as the argument to the function."""
 
 
