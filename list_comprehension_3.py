@@ -84,43 +84,9 @@ inp = int(input("enter the number"))
 # print(dict_new)
 
 
-
-ls = 8
-ld = 8
-lssst =[]
-c_p=[]
-for p in range(1,9):
-    c_p1=[]
-    c_p2=[]
-    for j in range(1,9):
-        lssst.append([p,j])
-        if p%2!=0:
-            if j%2!=0:
-                c_p1.append("Black")
-            elif j==8:
-                c_p1.append("White")
-                c_p.append(c_p1)
-                c_p1=[]
-            else:
-                c_p1.append("White")
-        elif p%2==0:
-            if j%2==0:
-                
-                c_p2.append("White")
-            elif j==8:
-                c_p2.append("White")
-                c_p.append(c_p2)
-                c_p2=[]
-            else:
-                c_p.append("Black")
-print(len(c_p))
-
-
-
-
-
-
-
+def col(x,y):
+    if x+y %2 == 0 ("White") else ("Black")
+        print("Black")
 
 
 
